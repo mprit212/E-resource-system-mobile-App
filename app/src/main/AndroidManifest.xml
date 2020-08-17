@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_resourcessystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_lanfixicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_lanfixicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".viewdemo"></activity>
+        <activity android:name=".splashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginOtp" />
+        <activity
+            android:name=".SendMail"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".ProfileUpdatemain"
+            android:parentActivityName=".Update_Profile" />
+        <activity
+            android:name=".Update_Profile"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".View_Resources"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".UploadResources"
+            android:parentActivityName=".Home" />
+        <activity android:name=".Home" />
+        <activity android:name=".Login"></activity>
+        <activity
+            android:name=".Regstration"
+            android:parentActivityName=".Login" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

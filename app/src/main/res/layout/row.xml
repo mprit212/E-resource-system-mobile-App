@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/tvsubject"
+            android:text="Subject : "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/tvsem"
+            android:text="Sem : "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvres"
+        android:text="Resources : "
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvres_desc"
+        android:text="Description : "
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvtype"
+        android:text="Type : "
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvid"
+        android:visibility="invisible"
+        />
+
+
+</LinearLayout>
